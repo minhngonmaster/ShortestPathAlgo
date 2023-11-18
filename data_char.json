@@ -1,0 +1,160 @@
+{
+    "graph":{
+        "A":{
+            "B": 600,
+            "C": 260,
+            "H": 1000
+        },
+        "B":{
+            "A": 600,
+            "D": 450
+        },
+        "C":{
+            "A": 260,
+            "E": 800
+        },
+        "D":{
+            "B": 450,
+            "E": 700
+        },
+        "E": {
+            "F": 800,
+            "D": 700,
+            "C": 800,
+            "G": 2400
+        },
+        "F":{
+            "E": 800,
+            "G": 2000,
+            "I": 150,
+            "H": 1000
+        },
+        "G":{
+            "F": 2000,
+            "E": 2400,
+            "J": 200
+        },
+        "H":{
+            "A": 1000,
+            "F": 1000
+        },
+        "I":{
+            "F": 150,
+            "K": 700
+        },
+        "J":{
+            "G": 200,
+            "L": 1200,
+            "M": 1400
+        },
+        "K":{
+            "I": 700,
+            "M": 130,
+            "O": 50,
+            "N": 850
+        },
+        "L":{
+            "J": 1200,
+            "Goal": 600,
+            "S": 500
+        },
+        "M":{
+            "J": 1400
+        },
+        "N":{
+            "K": 850,
+            "T": 100,
+            "W": 50
+        },
+        "O":{
+            "K": 50,
+            "P": 800
+        },
+        "P":{
+            "O": 800,
+            "W": 700,
+            "T": 800,
+            "R": 400
+        },
+        "Q":{
+            "V": 700,
+            "R": 650,
+            "Z": 2600
+        },
+        "R":{
+            "Q": 650,
+            "W": 700,
+            "P": 400,
+            "V": 300,
+            "S": 1200
+        },
+        "S":{
+            "R": 1200,
+            "L": 500,
+            "U": 200
+        },
+        "T":{
+            "N": 100,
+            "P": 800,
+            "X": 450
+        },
+        "U":{
+            "S": 200,
+            "Y": 350
+        },
+        "V":{
+            "Q": 700,
+            "R": 300
+        },
+        "W":{
+            "N": 50,
+            "P": 700,
+            "R": 700
+        },
+        "X":{
+            "Y": 100
+        },
+        "Y":{
+            "X": 100,
+            "U": 350
+        },
+        "Z":{
+            "Q": 2600,
+            "Goal": 600
+        },
+        "Goal":{
+            "Z": 600,
+            "L": 600
+        }
+    },
+    "names":{
+        "A": "Ly Thuong Kiet",
+        "B": "Bac Hai",
+        "C": "To Hien Thanh",
+        "D": "Thanh Thai",
+        "E": "Giao Thanh Thai - To Hien Thanh",
+        "F": "Cau vuot 3/2",
+        "G": "Bung binh CMT8",
+        "H": "Duong 3/2",
+        "I": "Ly Thai To",
+        "J": "CMT8",
+        "K": "Bung binh Ly Thai To",
+        "L": "Ly Tu Trong",
+        "M": "Dien Bien Phu",
+        "N": "Bung binh Nguyen Van Cu",
+        "O": "Le Hong Phong",
+        "P": "Giao Tran Phu - Le Hong Phong",
+        "Q": "Giao Tran Hung Dao - Nguyen Van Cu",
+        "R": "Giao Nguyen Van Cu - Nguyen Trai",
+        "S": "Giao Nguyen Trai - Ton That Tung",
+        "T": "Pham Viet Chanh",
+        "U": "Ton That Tung",
+        "V": "Tran Hung Dao",
+        "W": "Nguyen Van Cu",
+        "X": "Cong Huynh",
+        "Y": "Bui Thi Xuan",
+        "Z": "Pasteur",
+        "Goal": "Cho Ben Thanh"
+        
+    } 
+}

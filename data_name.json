@@ -1,0 +1,130 @@
+{
+    "graph":{
+        "Ly Thuong Kiet":{
+            "Bac Hai": 600,
+            "To Hien Thanh": 260,
+            "Duong 3/2": 1000
+        },
+        "Bac Hai":{
+            "Ly Thuong Kiet": 600,
+            "Thanh Thai": 450
+        },
+        "To Hien Thanh":{
+            "Ly Thuong Kiet": 260,
+            "Giao Thanh Thai - To Hien Thanh": 800
+        },
+        "Thanh Thai":{
+            "Bac Hai": 450,
+            "Giao Thanh Thai - To Hien Thanh": 700
+        },
+        "Giao Thanh Thai - To Hien Thanh": {
+            "Cau vuot 3/2": 800,
+            "Thanh Thai": 700,
+            "To Hien Thanh": 800,
+            "Bung binh CMT8": 2400
+        },
+        "Cau vuot 3/2":{
+            "Giao Thanh Thai - To Hien Thanh": 800,
+            "Bung binh CMT8": 2000,
+            "Ly Thai To": 150,
+            "Duong 3/2": 1000
+        },
+        "Bung binh CMT8":{
+            "Cau vuot 3/2": 2000,
+            "Giao Thanh Thai - To Hien Thanh": 2400,
+            "CMT8": 200
+        },
+        "Duong 3/2":{
+            "Ly Thuong Kiet": 1000,
+            "Cau vuot 3/2": 1000
+        },
+        "Ly Thai To":{
+            "Cau vuot 3/2": 150,
+            "Bung binh Ly Thai To": 700
+        },
+        "CMT8":{
+            "Bung binh CMT8": 200,
+            "Ly Tu Trong": 1200,
+            "Dien Bien Phu": 1400
+        },
+        "Bung binh Ly Thai To":{
+            "Ly Thai To": 700,
+            "Dien Bien Phu": 130,
+            "Le Hong Phong": 50,
+            "Bung binh Nguyen Van Cu": 850
+        },
+        "Ly Tu Trong":{
+            "CMT8": 1200,
+            "Cho Ben Thanh": 600,
+            "Giao Nguyen Trai - Ton That Tung": 500
+        },
+        "Dien Bien Phu":{
+            "CMT8": 1400
+        },
+        "Bung binh Nguyen Van Cu":{
+            "Bung binh Ly Thai To": 850,
+            "Pham Viet Chanh": 100,
+            "Nguyen Van Cu": 50
+        },
+        "Le Hong Phong":{
+            "Bung binh Ly Thai To": 50,
+            "Giao Tran Phu - Le Hong Phong": 800
+        },
+        "Giao Tran Phu - Le Hong Phong":{
+            "Le Hong Phong": 800,
+            "Nguyen Van Cu": 700,
+            "Pham Viet Chanh": 800,
+            "Giao Nguyen Van Cu - Nguyen Trai": 400
+        },
+        "Giao Tran Hung Dao - Nguyen Van Cu":{
+            "Tran Hung Dao": 700,
+            "Giao Nguyen Van Cu - Nguyen Trai": 650,
+            "Pasteur": 2600
+        },
+        "Giao Nguyen Van Cu - Nguyen Trai":{
+            "Giao Tran Hung Dao - Nguyen Van Cu": 650,
+            "Nguyen Van Cu": 700,
+            "Giao Tran Phu - Le Hong Phong": 400,
+            "Tran Hung Dao": 300,
+            "Giao Nguyen Trai - Ton That Tung": 1200
+        },
+        "Giao Nguyen Trai - Ton That Tung":{
+            "Giao Nguyen Van Cu - Nguyen Trai": 1200,
+            "Ly Tu Trong": 500,
+            "Ton That Tung": 200
+        },
+        "Pham Viet Chanh":{
+            "Bung binh Nguyen Van Cu": 100,
+            "Giao Tran Phu - Le Hong Phong": 800,
+            "Cong Huynh": 450
+        },
+        "Ton That Tung":{
+            "Giao Nguyen Trai - Ton That Tung": 200,
+            "Bui Thi Xuan": 350
+        },
+        "Tran Hung Dao":{
+            "Giao Tran Hung Dao - Nguyen Van Cu": 700,
+            "Giao Nguyen Van Cu - Nguyen Trai": 300
+        },
+        "Nguyen Van Cu":{
+            "Bung binh Nguyen Van Cu": 50,
+            "Giao Tran Phu - Le Hong Phong": 700,
+            "Giao Nguyen Van Cu - Nguyen Trai": 700
+        },
+        "Cong Huynh":{
+            "Bui Thi Xuan": 100
+        },
+        "Bui Thi Xuan":{
+            "Cong Huynh": 100,
+            "Ton That Tung": 350
+        },
+        "Pasteur":{
+            "Giao Tran Hung Dao - Nguyen Van Cu": 2600,
+            "Cho Ben Thanh": 600
+        },
+        "Cho Ben Thanh":{
+            "Pasteur": 600,
+            "Ly Tu Trong": 600
+        }
+    } 
+}
