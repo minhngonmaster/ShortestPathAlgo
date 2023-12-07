@@ -56,7 +56,8 @@
         "Ly Tu Trong":{
             "CMT8": 1200,
             "Cho Ben Thanh": 600,
-            "Giao Nguyen Trai - Ton That Tung": 500
+            "Giao Nguyen Trai - Ton That Tung": 500,
+            "Giao NTMK-CMT8": 450
         },
         "Dien Bien Phu":{
             "CMT8": 1400
@@ -64,8 +65,14 @@
         "Bung binh Nguyen Van Cu":{
             "Bung binh Ly Thai To": 850,
             "Pham Viet Chanh": 100,
-            "Nguyen Van Cu": 50
+            "Nguyen Van Cu": 50,
+            "Giao NTMK-CMT8": 1200
         },
+        "Giao NTMK-CMT8": {
+           "Bung binh Nguyen Van Cu": 1200,
+            "Ly Tu Trong": 450
+        },
+
         "Le Hong Phong":{
             "Bung binh Ly Thai To": 50,
             "Giao Tran Phu - Le Hong Phong": 800
@@ -74,7 +81,7 @@
             "Le Hong Phong": 800,
             "Nguyen Van Cu": 700,
             "Pham Viet Chanh": 800,
-            "Giao Nguyen Van Cu - Nguyen Trai": 400
+            "Giao Nguyen Van Cu - Nguyen Trai": 1000
         },
         "Giao Tran Hung Dao - Nguyen Van Cu":{
             "Tran Hung Dao": 700,
@@ -84,7 +91,7 @@
         "Giao Nguyen Van Cu - Nguyen Trai":{
             "Giao Tran Hung Dao - Nguyen Van Cu": 650,
             "Nguyen Van Cu": 700,
-            "Giao Tran Phu - Le Hong Phong": 400,
+            "Giao Tran Phu - Le Hong Phong": 1000,
             "Tran Hung Dao": 300,
             "Giao Nguyen Trai - Ton That Tung": 1200
         },
